@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PixelWork — Arte & IA Criativa</title>
+  <meta name="description" content="Criação de artes, logotipos, posts e imagens incríveis com inteligência artificial. Design que converte.">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <div class="logo">
+      PixelWork<span class="ia">AI</span>
+    </div>
+
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#gerador">Gerador IA</a></li>
+        <li><a href="#chatbot">Assistente IA</a></li>
+        <li><a href="#contato" class="btn-outline">Contato</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Transforme ideias em <span class="highlight">arte visual poderosa</span> com IA</h1>
+      <p class="subtitle">Design gráfico + Inteligência Artificial = Resultados que vendem em Luanda e além</p>
+
+      <div class="hero-buttons">
+        <a href="experimentar.html" class="btn-primary">Testar Gerador</a>
+        <a href="#chatbot" class="btn-outline">Falar com Assistente IA</a>
+      </div>
+    </div>
+    <div class="hero-bg"></div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="section">
+    <div class="container">
+      <h2>Nossos Serviços</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Design Gráfico</h3>
+          <p>Logotipos, identidade visual, posts redes sociais, embalagens e mais.</p>
+          <a href="solicitar.html" class="btn-primary small">Solicitar</a>
+        </div>
+        <div class="card highlight">
+          <h3>Gerador de Imagens com IA</h3>
+          <p>Artes únicas em segundos: realista, cyberpunk, anime, minimal...</p>
+          <a href="experimentar.html" class="btn-primary small">Experimentar</a>
+        </div>
+        <div class="card">
+          <h3>Conteúdo Criativo + IA</h3>
+          <p>Textos + imagens + vídeos curtos otimizados para redes.</p>
+          <a href="orcamento.html" class="btn-primary small">Orçamento</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gerador IA -->
+  <section id="gerador" class="section gerador-section">
+    <div class="container">
+      <h2>Gerador de Arte com IA</h2>
+      <p class="subtitle">Descreva sua ideia e crie imagens incríveis. Estilos variados e rápidos.</p>
+
+      <div class="gerador-container">
+        <div class="gerador-form">
+          <textarea id="prompt" placeholder="Exemplo: 'Uma cidade futurista em Luanda à noite, neon azul e laranja, chuva fina, cyberpunk ultra detalhado, 8k'"></textarea>
+          <button id="gerar-btn" class="btn-primary large">Gerar Imagem com IA</button>
+          <p class="info">Enviamos a imagem gerada diretamente no WhatsApp em poucos minutos (beta).</p>
+        </div>
+
+        <div class="gerador-preview">
+          <div class="preview-box">
+            <img src="https://via.placeholder.com/600x400/0f172a/60a5fa?text=Preview+da+Arte+Gerada" alt="Preview" id="preview-img">
+            <div class="preview-overlay">Sua arte aparecerá aqui após geração</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chatbot -->
+  <section id="chatbot" class="section chatbot-section">
+    <div class="container">
+      <h2>Assistente PixelWork IA</h2>
+      <p class="subtitle">Pergunte sobre design, ideias, preços, serviços ou qualquer dúvida!</p>
+
+      <div class="chat-container">
+        <div class="chat-messages" id="chat-messages">
+          <div class="message bot">
+            <div class="message-content">
+              Olá Ricardo! Sou o Assistente PixelWork IA 😊<br>
+              Como posso ajudar hoje? (ex: preços, ideias de arte, prompts bons...)
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-input">
+          <input type="text" id="user-input" placeholder="Digite sua pergunta aqui..." autocomplete="off">
+          <button id="send-btn" class="btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>© 2026 PixelWork — Feito com criatividade + IA • Luanda, Angola</p>
+    <div class="social">
+      <a href="#">Instagram</a> • <a href="https://wa.me/SEUNUMERO">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+  </html>
